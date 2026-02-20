@@ -1,0 +1,22 @@
+.borders{
+    border-bottom: 1px solid;
+}
+
+.details-container{
+    display: block;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.table-bordered>:not(caption)>*>* {
+    padding: 0px !important;
+}
+
+@media screen and (max-width: 799px) {
+    .details-container {
+        padding: 4px 10px;
+    }
+}

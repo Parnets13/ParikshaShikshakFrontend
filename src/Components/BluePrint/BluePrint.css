@@ -1,0 +1,132 @@
+.blueprint-container {
+  /* font-family: sans-serif; */
+  padding: 0px 0 20px 0;
+}
+
+.blueprint-content-display-container {
+  padding: 0 200px;
+}
+
+.blueprint-content-display {
+  padding: 10px 20px;
+  /* border: 1px solid lightgrey; */
+  /* width: fit-content; */
+  margin: auto;
+  /* height: 800px; */
+}
+
+.blueprint-titles h3 {
+  text-align: center;
+  padding: 10px 0px 0 0;
+  font-weight: 600;
+}
+
+.blueprint-titles h4 {
+  text-align: center;
+  padding: 10px 0px;
+  text-decoration: underline;
+}
+
+.weightage-objectives {
+  /* border: 1px solid; */
+  /* padding: 0px 20px; */
+  /* width: 300px; */
+}
+.main-title {
+  display: flex;
+  gap: 5px;
+}
+
+.objectives-table {
+  padding: 10px 0px;
+  /* overflow: hidden; */
+  /* overflow: scroll; */
+  /* background: red; */
+}
+
+@media screen and (max-width: 799px) {
+  .blueprint-content-display-container {
+    padding: 0 20px;
+  }
+  .blueprint-content-display-container {
+    padding: 10px;
+  }
+  .blueprint-content-display {
+    width: 1200px;
+  }
+  .blue-print_1tab {
+    width: -webkit-fill-available !important;
+  }
+}
+
+/* 1st blueprint */
+.qp-end-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  padding: 5px 20px;
+}
+
+.edit-button {
+  background-color: navy;
+  color: white;
+  padding: 5px 20px;
+}
+
+.edit-button:hover {
+  background-color: rgb(58, 58, 92);
+  color: white;
+  padding: 5px 20px;
+}
+.selct-cls {
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  width: 100%;
+  padding: 6px;
+}
+
+.Add-button {
+  background-color: rgb(236, 98, 5);
+  color: white;
+  padding: 5px 20px;
+  border: 1px solid white;
+}
+.Add-button:hover {
+  background-color: rgb(221, 207, 207);
+  color: black;
+  padding: 5px 20px;
+  border: 1px solid black;
+}
+
+.blueprint-box {
+  padding: 10px 200px;
+}
+@media screen and (max-width: 799px) {
+  .blueprint-box {
+    padding: 10px 20px;
+  }
+
+  .Add-button {
+    padding: 5px;
+    font-size: 13px;
+  }
+  .edit-button {
+    padding: 5px 12px;
+    font-size: 13px;
+  }
+  .card-body h6 {
+    font-size: 13px;
+  }
+
+  .qp-end-buttons {
+    gap: 8px;
+    padding: 5px 5px;
+  }
+  .blueprint-content-display {
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+   
+}

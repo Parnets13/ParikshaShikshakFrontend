@@ -1,0 +1,66 @@
+@media screen and (max-width: 799px) {
+  .coverpageR {
+    padding: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 380px !important;
+    margin: auto;
+    border-radius: 20px;
+    height: 1060px;
+  }
+}
+
+.admin-coverpage1 {
+    margin: 0 auto;
+    padding: 15mm;
+    /* position: relative */
+}
+.adminmaincontent{
+   width: 210mm;
+     height: 297mm;
+       margin: 0 auto;
+}
+.admin-coverpage {
+    width: 210mm;
+    height: 297mm;
+    margin: 0 auto;
+    padding: 15mm;
+    position: relative
+}
+
+/* Print-specific styling */
+
+/* .a4-page {
+  width: 210mm;
+  min-height: 297mm;
+  margin: 10px auto;
+  padding: 20mm;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 5px #ccc;
+  background: white;
+} */
+/* For screen preview (optional) */
+
+
+@media screen and (max-width: 576px) {
+    .admin-coverpage {
+    width: 100mm;
+    height: auto;
+    margin: 0 auto;
+    padding: 15mm;
+    position: relative;
+  }
+  .adminmaincontent{
+   width: auto;
+     height: 297mm;
+       margin: 0 auto;
+}
+/* #printbuttun{
+  display:none
+} */
+
+.admin-coverpage1 {
+    margin: 0 auto;
+    padding: 5mm;
+    /* position: relative */
+}
+}

@@ -1,0 +1,255 @@
+/* .App {
+  overflow-x: hidden;
+} */
+/*
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+ 
+
+.swal-footer {
+  text-align: center !important;
+}
+.swal-button {
+  background-color: #dc3545 !important;
+  border: none !important;
+}
+.swal-text {
+  font-size: 17px !important;
+  color: black !important;
+  font-family: initial !important;
+}
+.swal-title {
+  color: black !important;
+}
+.modal-content {
+  border-radius: unset !important;
+}
+.modal-header {
+  background-color: #ff9933 !important;
+  border-radius: unset !important;
+  color: #fff !important;
+}
+button {
+  background-color: navy;
+  color: #fff;
+  border-radius: unset !important;
+  border: none;
+}
+
+/* pagination starts here  */
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+  text-align: center;
+  color: navy;
+  font-size: 12px;
+  font-family: auto;
+  justify-content: flex-end;
+}
+
+.pagination > li {
+  padding: 0 0;
+  flex: 1 1 35px;
+  max-width: 25px;
+  min-width: 14px;
+  float: left;
+  font-size: 15px;
+  border: 1px solid orange;
+  margin: 0 2px;
+  border-radius: 6px;
+}
+
+.next-prev {
+  font-size: 10px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 3px;
+}
+
+.active {
+  background-color: #138808;
+}
+.current {
+  color: white !important;
+}
+.inactive {
+  color: navy !important;
+}
+
+.active-next:hover {
+  background-color: #138808;
+}
+.active-next a {
+  text-decoration: none;
+  color: #138808 !important;
+}
+
+.active-next:hover a {
+  color: white !important;
+  text-decoration: none;
+}
+.pagination > .active > span,
+.pagination > li > a:hover {
+  background: 0 0;
+  color: navy;
+  border-radius: 4px;
+  box-shadow: inset 2px 2px 2px 0px rgb(255, 255, 255),
+    inset -7px -7px 10px 0px (0, 0, 0, 0.1), 5px 5px 10px 0px rgb(0, 0, 0, 0.1),
+    2px 2px 5px 0px rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 3px rgb(255, 255, 255), 0.5,
+    -4px -4px 6px rgb(116, 125, 136, 0.2);
+  outline: none;
+}
+/* pagination End here  */
+
+/* sweet alert starts here*/
+.swal-modal {
+  border-radius: 0px !important;
+}
+/* sweet alert ends here*/
+
+/* ck editor in passage */
+.ck.ck-editor {
+  position: relative;
+  width: 100% !important;
+}
+/* ck editor in passage */
+
+.text-container {
+  text-align: center;
+  padding: 12px;
+  /* background-color: #fff; */
+  border-radius: 10px;
+  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); */
+}
+
+.beautiful-text {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+  position: relative;
+  display: inline-block;
+}
+
+.beautiful-text::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, #ff6b6b, #f9c2ff);
+  z-index: -1;
+  transform: translate(-50%, -50%) rotate(0deg);
+  animation: gradient-animation 5s ease infinite;
+  border-radius: 10px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.questionpdfview a {
+  font-size: 15px;
+  text-decoration: none;
+  word-spacing: 2px;
+}
+.vertical-line {
+  border-left: 4px solid white;
+  height: 16px;
+  /* display: flex; */
+  /* text-align: end; */
+  /* margin-bottom: -12px; */
+  margin-top: 16px;
+}
+.table_data td {
+  border: 1px solid #dddddd;
+  font-size: 20px;
+}
+.offerbox {
+  background-color: aliceblue;
+
+  border-radius: 10px;
+}
+.uiline ul {
+  gap: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.uiline span {
+  font-size: 18px;
+  font-family: math;
+}
+.buybtn {
+  padding: 12px;
+  border-radius: 10px !important;
+  width: 69px;
+}
+.spantg {
+  background-color: #9ae5cc;
+  padding: 8px;
+  border-radius: 23px;
+  height: 35px;
+}
+@media screen and (max-width: 799px) {
+  .vertical-line {
+    display: none !important;
+  }
+}
+
+/* * {
+  outline: 2px solid red !important;
+} */
+
+
+
+
+

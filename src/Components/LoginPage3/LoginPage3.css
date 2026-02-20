@@ -1,0 +1,91 @@
+/* Login and Sign up page css starts */
+.box {
+  background-color: #fff;
+  border-radius: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+  position: relative;
+  overflow: hidden;
+  width: 1000px;
+  max-width: 100%;
+  min-height: 479px;
+  margin: auto;
+}
+.line-1 {
+  position: absolute;
+  /* top: 49%; */
+  width: 100%;
+  font-size: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  /* transform: translateY(-50%); */
+  text-align: center;
+  /* left: 11%; */
+  /* right: 3%; */
+}
+
+.line-1 h3 {
+  font-size: 25px;
+}
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 4s steps(44) 1s 1 normal both;
+  /* blinkTextCursor 500ms steps(44) infinite normal; */
+}
+
+.login3-bg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 676px;
+  position: relative;
+  background-image: url(../../../public/loginpage3.jpg);
+}
+
+.signup-bg-img {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 600px;
+  position: relative;
+  background-image: url(../../../public/page2bg.png);
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 50%;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .login3-bg {
+    height: 300px;
+  }
+  .pe-2 {
+    padding: 20px;
+  }
+  .line-1 {
+    position: absolute;
+    top: 45%;
+    left: 9%;
+  }
+  .line-1 h3 {
+    font-size: 25px;
+  }
+  .signup-bg-img {
+    height: 300px;
+  }
+}
+
+
+

@@ -1,0 +1,150 @@
+admin-answersheet.css
+
+.answersheet-container {
+    width: 100%;
+    overflow-x: auto;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .answersheet-table {
+    width: 100%;
+  }
+  
+  .answersheet-table th,
+  .answersheet-table td {
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  /* Keep your custom styles */
+  .header-cell {
+    width: 33.33%;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .border-right {
+    border-right: 2px solid #000 !important;
+  }
+  
+  .sub-header {
+    font-weight: bold;
+    padding: 8px;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .column-headers {
+    background-color: #f5f5f5;
+  }
+  
+  .serial-column {
+    width: 20px;
+  }
+  
+  .vertical-text {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    white-space: nowrap;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inner-table {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  
+  .inner-table th,
+  .inner-table td {
+    padding: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .inner-header {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  .small-column {
+    width: 30px;
+  }
+  
+  .student-name {
+    text-align: left;
+    font-style: italic;
+    color: #666;
+  }
+  
+  .data-row td {
+    height: 30px;
+  }
+  
+  .footer-note {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 992px) {
+    .inner-table th,
+    .inner-table td {
+      font-size: 0.8rem;
+      padding: 3px;
+    }
+  
+    .small-column {
+      width: 25px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .inner-table th,
+    .inner-table td {
+      font-size: 0.7rem;
+      padding: 2px;
+    }
+  
+    .small-column {
+      width: 20px;
+    }
+  
+    .vertical-text {
+      min-height: 60px;
+    }
+  
+    .footer-note {
+      font-size: 0.7rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .answersheet-container {
+      font-size: 0.7rem;
+    }
+  
+    .header-cell,
+    .sub-header {
+      padding: 5px; 
+    }
+  
+    .inner-table th,
+    .inner-table td {
+      font-size: 0.6rem;
+      padding: 1px;
+    }
+  
+    .small-column {
+      width: 15px;
+    }
+  }
+
